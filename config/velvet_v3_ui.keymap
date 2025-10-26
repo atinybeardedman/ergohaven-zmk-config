@@ -63,10 +63,10 @@
 
         sym {
             bindings = <
-&trans  &trans    &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                      &kp CARET  &kp DQT   &kp UNDER  &kp SQT   &trans    &trans
-&trans  &kp BSLH  &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                       &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC  &kp EXCL  &kp QUESTION
-&trans  &trans    &kp STAR  &kp COLON  &kp FSLH  &kp DLLR                       &kp AT     &kp PIPE  &kp TILDE  &kp AMPS  &trans    &trans
-                  &trans    &trans     &trans    &mo 3      &kp HASH    &trans  &trans     &trans    &trans     &trans
+&trans  &kp GRAVE  &kp LBKT      &kp RBKT      &kp GT        &trans                           &kp LA(UP)    &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &trans  &trans
+&trans  &trans     &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(PLUS)  &kp EQUAL                        &kp LA(DOWN)  &kp LEFT      &kp DOWN  &kp RIGHT      &trans  &trans
+&trans  &trans     &kp LS(LBRC)  &kp LS(RBRC)  &trans        &trans                           &trans        &kp LC(LEFT)  &trans    &kp LC(RIGHT)  &trans  &trans
+                   &trans        &trans        &trans        &mo 3      &kp DELETE    &trans  &trans        &trans        &trans    &trans
             >;
 
             display-name = "Symbols";
